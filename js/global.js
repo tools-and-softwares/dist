@@ -1,4 +1,4 @@
-$.ajax({
+/*$.ajax({
      url: "https://geolocation-db.com/jsonp",
      jsonpCallback: "callback",
      dataType: "jsonp",
@@ -9,3 +9,4 @@ $.ajax({
           geo = 1;
      }
 });
+*/

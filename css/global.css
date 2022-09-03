@@ -1,6 +1,9 @@
 a,a:hover,a:active{
 	text-decoration: none;
 }
+.text-danger{
+    color: red;
+}
 .social-share img{
     height: 1.3rem;
     max-height: 1.3rem;

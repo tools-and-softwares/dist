@@ -2,7 +2,7 @@
 @include bsBanner("");
 
 $primary: #00728d;
-
+$btn-box-shadow: inset 0 0 0 rgba(255,255,255, 0), 0 0px 0px rgba(0,0,0, 0);
 // scss-docs-start import-stack
 // Configuration
 @import "functions";

@@ -1,5 +1,4 @@
 function submit_form(form,callback){
-	
 	var action = $(form).attr('action');
 	var method = $(form).attr('method');
 	var multipart = $(form).attr('enctype');
@@ -11,11 +10,28 @@ function submit_form(form,callback){
 	return false;
 };
 function process_form(action,method,form,callback){
-	var data = new FormData(form);
 	var submit = $('[type="submit"]',form);
 	var response = $('.response',form);
-	console.log('ee');
-
+	$submit.attr('disabled',1);
+	$response.html('Please Wait...');
+	if(!action){
+		$submit.removeAttr('disabled');
+		$response.html('Form not Configured, Please come back and try again.');
+		return false;
+	}
+	$.ajax({
+		url: action,
+		type: method,
+		data: $(form).serializeArray(),
+		success: function(response){
+        	//$submit.removeAttr('disabled');
+            callback(response,form,$submit,$response);			
+		},
+		error:function(){
+        	$submit.removeAttr('disabled');
+			$response.html('Server Error, Please try again later');
+		}
+	});
 }
 function process_form_multipart(action,method,form,callback){
 	var fdata = new FormData(form);
@@ -25,7 +41,7 @@ function process_form_multipart(action,method,form,callback){
 	$response.html('Please Wait...');
 	$.ajax({
         url: action,
-        type: 'POST',
+        type: method,
         data: fdata,
         success: function (data) {
         	$submit.removeAttr('disabled');

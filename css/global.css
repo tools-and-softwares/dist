@@ -1,10 +1,6 @@
 a,a:hover,a:active{
 	text-decoration: none;
 }
-.social-share img{
-	height: 1rem;
-	max-height: 1rem;
-}
 .btn-blogger,.btn-blogger:hover,.btn-blogger:active,.btn-blogger:focus{background-color:#ff5722;color:#fff;box-shadow:none;}
 .btn-facebook,.btn-facebook:hover,.btn-facebook:active,.btn-facebook:focus{background-color:#3b5998;color:#fff;box-shadow:none;}
 .btn-twitter,.btn-twitter:hover,.btn-twitter:active,.btn-twitter:focus{background-color:#1da1f2;color:#fff;box-shadow:none;}

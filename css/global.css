@@ -1,6 +1,46 @@
 a,a:hover,a:active{
 	text-decoration: none;
 }
+.social-share img{
+    height: 1.3rem;
+    max-height: 1.3rem;
+    margin-bottom: 0.2rem;
+}
+.social-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.social-share label{
+    font-size: 12px;
+    display: none;
+    text-transform: uppercase;
+}
+.social-share .btn{
+    border-radius: 0;
+}
+@media screen and (min-width:  767px){
+    .social-share label{
+         display: block;
+    }
+    .social-share{
+         background-color: #fff;
+         display: block;
+         width: auto;
+         height: auto;
+         bottom: 50%;
+         transform: translateY(50%);
+    }
+    .social-share .btn{
+         display: block;
+    }
+}
 .social-share .btn,
 .social-share .btn:hover,
 .social-share .btn:active,

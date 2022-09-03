@@ -15,4 +15,4 @@ a,a:hover,a:active{
 .btn-whatsapp,.btn-whatsapp:hover,.btn-whatsapp:active,.btn-whatsapp:focus{background-color:#1ebda4;color:#fff;box-shadow:none;}
 .btn-telegram,.btn-telegram:hover,.btn-telegram:active,.btn-telegram:focus{background-color:#35ade1;color:#fff;box-shadow:none;}
 .btn-gmail,.btn-gmail:hover,.btn-gmail:active,.btn-gmail:focus{background-color:#c23829;color:#fff;box-shadow:none;}
-.btn-email,.btn-email:hover,.btn-email:active,.btn-email:focus{background-color: #343a40;}
+.btn-email,.btn-email:hover,.btn-email:active,.btn-email:focus{background-color: #343a40;color: #fff;box-shadow:none;}

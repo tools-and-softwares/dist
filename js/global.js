@@ -10,3 +10,12 @@
      }
 });
 */
+
+var report_modal = document.getElementById('report-a-problem');
+report_modal.addEventListener('show.bs.modal', function (event) {
+     //console.log('rrr')
+     if(form_loaded == 0){
+          $('iframe',event.target).attr('src',$('iframe',event.target).attr('data-src'));
+          form_loaded = 1;
+     }
+})

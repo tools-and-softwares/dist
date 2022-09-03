@@ -1,3 +1,12 @@
 a,a:hover,a:active{
 	text-decoration: none;
 }
+
+			.btn-blogger,.btn-blogger:hover,.btn-blogger:active,.btn-blogger:focus{background-color:#ff5722;color:#fff;box-shadow:none;}
+			.btn-facebook,.btn-facebook:hover,.btn-facebook:active,.btn-facebook:focus{background-color:#3b5998;color:#fff;box-shadow:none;}
+			.btn-twitter,.btn-twitter:hover,.btn-twitter:active,.btn-twitter:focus{background-color:#1da1f2;color:#fff;box-shadow:none;}
+			.btn-pinterest,.btn-pinterest:hover,.btn-pinterest:active,.btn-pinterest:focus{background-color:#e60023;color:#fff;box-shadow:none;}
+			.btn-linkedin,.btn-linkedin:hover,.btn-linkedin:active,.btn-linkedin:focus{background-color:#0073b0;color:#fff;box-shadow:none;}
+			.btn-whatsapp,.btn-whatsapp:hover,.btn-whatsapp:active,.btn-whatsapp:focus{background-color:#1ebda4;color:#fff;box-shadow:none;}
+			.btn-telegram,.btn-telegram:hover,.btn-telegram:active,.btn-telegram:focus{background-color:#35ade1;color:#fff;box-shadow:none;}
+			.btn-gmail,.btn-gmail:hover,.btn-gmail:active,.btn-gmail:focus{background-color:#c23829;color:#fff;box-shadow:none;}

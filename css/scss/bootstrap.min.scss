@@ -39,7 +39,6 @@ $theme-colors: map-remove($theme-colors, "info", "warning", "secondary", "dark",
 @import "alert";
 @import "progress";
 @import "list-group";
-@import "close";
 @import "toasts";
 @import "tooltip";
 @import "popover";
@@ -48,6 +47,7 @@ $theme-colors: map-remove($theme-colors, "info", "warning", "secondary", "dark",
 @import "offcanvas";
 @import "placeholders";
 */
+@import "close";
 @import "modal";
 // Helpers
 @import "helpers";

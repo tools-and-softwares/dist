@@ -1,8 +1,9 @@
 a,a:hover,a:active{
 	text-decoration: none;
 }
-.social-share svg{
+.social-share img{
 	height: 1rem;
+	max-height: 1rem;
 }
 .btn-blogger,.btn-blogger:hover,.btn-blogger:active,.btn-blogger:focus{background-color:#ff5722;color:#fff;box-shadow:none;}
 .btn-facebook,.btn-facebook:hover,.btn-facebook:active,.btn-facebook:focus{background-color:#3b5998;color:#fff;box-shadow:none;}
